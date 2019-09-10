@@ -558,9 +558,20 @@ a.active {
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
+.portfolio_item:active .portfolio_item_hover {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
 
 .portfolio_item:hover .item_info em,
 .portfolio_item:hover .item_info span {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+.portfolio_item:active .item_info em,
+.portfolio_item:active .item_info span {
     opacity: 1;
     -webkit-transform: translateX(0);
     transform: translateX(0);
